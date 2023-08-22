@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+width: 33%;
+border: 3px solid white;
+border-radius: 50px;
+}
+.navbar{
+
+    display: flex;
+
+}
+.nav-list{
+    background-color: black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 23px 36px;
+}
+.nav-list li a{
+text-decoration: none;
+color: white;
+
+}.nav-list li a:hover{
+    text-decoration: none;
+    color: gray;
+    
+    }
+.rightNav{
+    background-color: red;
+    width: 50%;
+    text-align: right;
+}
